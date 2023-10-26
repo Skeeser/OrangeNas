@@ -34,6 +34,7 @@
 - 实现一个FTP协议的客户端和服务端，完成基本的文件传输功能。
 - 多客户端访问。
 - 在获取文件之前能够先得到文件列表。
+- 防止服务端崩溃, 自动重启
 
 <br>
 
@@ -52,6 +53,8 @@
 
 ![img](assets/wps2.jpg)
 
+<br>
+
 ## 系统架构
 
 Linux
@@ -67,8 +70,6 @@ Linux
 ```shell
 git clone git@github.com:Skeeser/OrangeNas.git
 ```
-
-
 
 <br>
 
@@ -89,11 +90,7 @@ git clone git@github.com:Skeeser/OrangeNas.git
 
    即可运行服务端程序
 
-
-
-
-
-
+<br>
 
 #### 客户端使用：
 
@@ -110,20 +107,19 @@ git clone git@github.com:Skeeser/OrangeNas.git
 
    即可运行客户端程序
 
-
+<br>
 
 ### 测试
 
 server 文件夹、client 文件夹都放了测试文件，可以根据程序进行测试。
-
-
 
 <br>
 
 ## 使用指南
 
 - 开启客户端前要开服务端
-  <br>
+
+<br>
 
 ## 如何贡献
 
